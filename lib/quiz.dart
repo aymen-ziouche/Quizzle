@@ -14,6 +14,9 @@ class Quiz extends StatelessWidget {
     return Column(
       children: [
         Question(question[questionIndex]["questionText"]),
+        SizedBox(
+          height: 40,
+        ),
         ...(question[questionIndex]["answers"] as List<Map<String, Object>>)
             .map((answer) {
           return Answer(() => answerQuestion(answer["score"]), answer["text"]);

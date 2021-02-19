@@ -144,12 +144,18 @@ class _MyAppState extends State<MyApp> {
                 fontSize: 30),
           ),
         ),
-        body: Container(
-            color: Color(0xFFEEF0F7),
-            margin: EdgeInsets.all(10.0),
-            child: _questionIndex < question.length
-                ? Quiz(question, _questionIndex, answerQuestion)
-                : Result(_resetQuiz, _totalScore)),
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(
+                  color: Color(0xFFEEF0F7),
+                  margin: EdgeInsets.all(10.0),
+                  child: _questionIndex < question.length
+                      ? Quiz(question, _questionIndex, answerQuestion)
+                      : Result(_resetQuiz, _totalScore)),
+            ],
+          ),
+        ),
         floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.deepPurpleAccent,
           child: Icon(Icons.arrow_back),
