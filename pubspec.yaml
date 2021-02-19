@@ -1,4 +1,4 @@
-name: Quizzle
+name: quiz_app
 description: A simple Quiz app made with Flutter.
 
 # The following line prevents the package from being accidentally published to
