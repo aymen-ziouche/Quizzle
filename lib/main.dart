@@ -137,7 +137,7 @@ class _MyAppState extends State<MyApp> {
           centerTitle: true,
           elevation: 0,
           title: Text(
-            "Quiz App",
+            "Quizzle",
             style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Color(0xFF4F59DF),
