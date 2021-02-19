@@ -118,7 +118,7 @@ class _MyAppState extends State<MyApp> {
     {
       "questionText": "What is the world's biggest spider ?",
       "answers": [
-        {"text": "Goliath birdeater tarantula", "score": 10},
+        {"text": "Goliath birdeater", "score": 10},
         {"text": "Wolf spider", "score": 00},
         {"text": "Badumna", "score": 00},
         {"text": "Zoropsidae", "score": 00},
