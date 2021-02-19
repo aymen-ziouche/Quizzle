@@ -14,7 +14,7 @@ class Result extends StatelessWidget {
     } else if (resultScore >= 50) {
       resultText = "Pretty good !";
     } else {
-      resultText = "You're so dumb !\n Go read Some books ";
+      resultText = "   You're so dumb !\nGo read Some books";
     }
 
     return resultText;

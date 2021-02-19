@@ -8,26 +8,29 @@ class Answer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 15.0),
-        child: RaisedButton(
-          elevation: 20,
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)),
-          color: Colors.deepPurpleAccent,
-          textColor: Colors.white,
-          child: Padding(
-            padding: const EdgeInsets.all(10.0),
-            child: Center(
-              child: Text(
-                answerText,
-                style: TextStyle(fontSize: 30),
+    return Padding(
+      padding: const EdgeInsets.only(top: 10),
+      child: Container(
+        width: double.infinity,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 18.0),
+          child: RaisedButton(
+            elevation: 20,
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12.0)),
+            color: Colors.deepPurpleAccent,
+            textColor: Colors.white,
+            child: Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Center(
+                child: Text(
+                  answerText,
+                  style: TextStyle(fontSize: 30),
+                ),
               ),
             ),
+            onPressed: x,
           ),
-          onPressed: x,
         ),
       ),
     );
