@@ -28,9 +28,9 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       _questionIndex += 1;
     });
-    print("_questionindex = $_questionIndex");
-    print("number = $number");
-    print("_totalScore = $_totalScore");
+    // print("_questionindex = $_questionIndex");
+    // print("number = $number");
+    // print("_totalScore = $_totalScore");
   }
 
   final List<Map<String, Object>> question = [
@@ -170,9 +170,9 @@ class _MyAppState extends State<MyApp> {
                 }
               }
             });
-            print("_questionindex = $_questionIndex");
-            print("number = $number");
-            print("_totalScore = $_totalScore");
+            // print("_questionindex = $_questionIndex");
+            // print("number = $number");
+            // print("_totalScore = $_totalScore");
           },
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,

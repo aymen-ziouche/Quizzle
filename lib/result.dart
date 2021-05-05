@@ -56,7 +56,7 @@ class Result extends StatelessWidget {
                   color: Colors.deepPurpleAccent),
             ),
             onPressed: q,
-          )
+          ),
         ],
       ),
     );
